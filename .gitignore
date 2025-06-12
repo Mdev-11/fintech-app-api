@@ -1,0 +1,77 @@
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+Homestead.json
+Homestead.yaml
+Thumbs.db
+
+# Laravel specific
+/bootstrap/cache/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+/storage/app/public/*
+/storage/app/private/*
+
+# Dependencies
+/public/dist
+/public/mix-manifest.json
+/public/css
+/public/js
+
+# IDE specific
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+*.swp
+*.swo
+
+# Testing
+/coverage
+.phpunit.cache
+/tests/coverage
+
+# Deployment
+/.docker
+docker-compose.override.yml
+
+# Application specific
+/storage/app/faces/*
+/storage/app/ids/*
+!storage/app/faces/.gitkeep
+!storage/app/ids/.gitkeep
+
+# Keep these directories but ignore their contents
+!storage/framework/cache/.gitkeep
+!storage/framework/sessions/.gitkeep
+!storage/framework/views/.gitkeep
+!storage/logs/.gitkeep
+!bootstrap/cache/.gitkeep
+
+npm-debug.log
+yarn-error.log
+.env.*.local
+.env.local
+.env.testing
